@@ -26,6 +26,7 @@ npm run dev
 6. Higher motor speed will cause battery drain faster and temperature go up faster and to a higher target value.
 7. The temperature range of the battery is between 10 and 15 * motorSpeed + 20.
 8. The charging button is in orange color when charging is on, and in lime color when the percentage reaches 98.
+9. Motor will stop when battery is used up.
 
 # Access the database (readonly) via AWS console
 
@@ -33,7 +34,8 @@ npm run dev
 IAM username: `dynamodb-readonly`<br>
 Password: `bG5H%9%{`
 
-2. Go to DynamoDB (can use the top search bar) <br>
+2. Make sure on the top-right, region "Oregon us-west-2" is chosen.<br>
+     -> Go to DynamoDB (can use the top search bar) <br>
      -> Tables <br>
      -> epiroc-task <br>
      -> Explore table items <br>
