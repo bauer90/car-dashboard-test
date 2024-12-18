@@ -1,7 +1,7 @@
 # Access the online application
 [http://epiroc-front-end.s3-website-us-west-2.amazonaws.com/](http://epiroc-front-end.s3-website-us-west-2.amazonaws.com/)
 
-# Build locally
+# Build and run locally
 ### 1. Start the backend locally:
 ```shell
 cd backend   # if not already
@@ -23,7 +23,7 @@ npm run dev
 3. Motor status indicator will light when RPM > 600.
 4. Battery low indicator will light when battery percentage < 20.
 5. When the charging starts, the motor will stop. When the motor starts, the charging will stop.
-6. Higher motor speed will cause battery drain faster and temperature 
+6. Higher motor speed will cause battery drain faster and temperature go up faster and to a higher target value.
 7. The temperature range of the battery is between 10 and 15 * motorSpeed + 20.
 8. The charging button is in orange color when charging is on, and in lime color when the percentage reaches 98.
 
