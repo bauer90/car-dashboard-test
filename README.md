@@ -42,7 +42,7 @@ Password: `bG5H%9%{`
      -> "test" (under "Items returned")
 
 # APIs
-An API server is currently hosted online, so that values on the database can be viewed and updated.
+A set of serverless APIs (using AWS API Gateway and Lambda) is available to update values that cannot be configured on the dashboard.
 
 To access the APIs, you can use `https://nt1dr4fuub.execute-api.us-west-2.amazonaws.com` in place of `BASE_URL` below.
 
